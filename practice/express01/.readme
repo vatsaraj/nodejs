@@ -1,3 +1,17 @@
+The files in this folder implement the redndering of a simple website, with a
+few child pages. Each child page needs to be accessed by typing in the URL.
+Links will be implemented at a later practice chapter.
+
+The webpages are rendered using the express and handlebars frameworks.
+
+The web pages served are:
+Homepage                       : http://<your server name or ip>:8080
+The About page                 : http://<your server name or ip>:8080/about
+A fortune cookie page          : http://<your server name or ip>:8080/fortune
+A Help page                    : http://<your server name or ip>:8080/help
+A page that triggers 500 error : http://<your server name or ip>:8080/contact
+To see a 404 error page        : http://<your server name or ip>:8080/404
+
 To run the code in this folder, you'll need to install some dependencies, using
 the Node Package Manager commandline (npm).
 The dependencies are listed in the file package.json under the heading that
