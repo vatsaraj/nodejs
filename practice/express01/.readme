@@ -4,6 +4,13 @@ The dependencies are listed in the file package.json under the heading that
 looks like
   "dependencies": {
 
+Dependencies may be installed via npm like this
+  npm install express --save
+  npm install express3-handlebars --save
+  
+The --save option saves the dependency and it's relevant version into
+package.json
+
 The web server is executed by running the command
   node server.js
 
